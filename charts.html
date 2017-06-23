@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <lang="en">
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.6.0/metricsgraphics.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.6.0/metricsgraphics.css">
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+        body {
+            font-family: 'Source Sans Pro';
+        }
+
+        html {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="EGLT"></div>
+    <div id="AZN"></div>
+
+    <script>
+    d3.json('data/ufo-sightings.json', function(data) {
+        MG.data_graphic({
+            title: "FDA Decisions",
+            description: "Historical FDA Decision Data",
+            data: data,
+            markers: [{'year': 1964, 'label': 'Phase3 - EGLT'}],
+            width: 400,
+            height: 250,
+            target: "#EGLT",
+            x_accessor: "year",
+            y_accessor: "sightings",
+            interpolate: "monotone"
+        });
+    });
+    d3.json('data/ufo-sightings.json', function(data) {
+        MG.data_graphic({
+            description: "Yearly UFO sightings from 1945 to 2010.",
+            data: data,
+            markers: [{'year': 1964, 'label': 'PDUFA - AZN'}],
+            width: 400,
+            height: 250,
+            target: "#AZN",
+            x_accessor: "year",
+            y_accessor: "sightings",
+            interpolate: "monotone"
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,2 +1,1 @@
-# pharmakarma
-A collection of tools to analyze previous FDA decisions to predict future hype volatility
+This will eventually provide some decent insight into historical/future pharma performance and pdufa decisions.
