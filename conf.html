@@ -6,6 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.css">
+
     <style>
         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
@@ -23,20 +24,23 @@
     <div id="AZN"></div>
 
     <script>
-    d3.json('data/ufo-sightings.json', function(data) {
+    d3.json('data/stock.json', function(data) {
+        data = MG.convert.date(data, 'date');
         MG.data_graphic({
-            description: "Yearly UFO sightings from 1945 to 2010.",
+            title: "Confidence Band",
+            description: "This is an example of a graphic with a confidence band and extended x-axis ticks enabled.",
             data: data,
-            markers: [{'year': 1964, 'label': 'PDUFA - AZN'}],
-            width: 400,
-            height: 250,
-            target: "#EGLT",
-            x_accessor: "year",
-            y_accessor: "sightings",
-
-       });
+            width: 600,
+            height: 200,
+            right: 40,
+            area: false,
+            target: '#EGLT',
+            show_secondary_x_label: false,
+            show_confidence_band: ['low', 'high'],
+            x_extended_ticks: true
+        });
     });
-    d3.json('data/ufo-sightings.json', function(data) {
+    d3.json('data/confidence_band.json', function(data) {
         MG.data_graphic({
             description: "Yearly UFO sightings from 1945 to 2010.",
             data: data,
