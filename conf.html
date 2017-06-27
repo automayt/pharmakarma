@@ -6,6 +6,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.css">
+    <script src='js/mg_line_brushing.js'></script>
+    <link rel='stylesheet' href='css/mg_line_brushing.css' />
 
     <style>
         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -21,7 +23,6 @@
 </head>
 <body>
     <div id="EGLT"></div>
-    <div id="AZN"></div>
 
     <script>
     d3.json('data/stock.json', function(data) {
@@ -37,21 +38,13 @@
             target: '#EGLT',
             show_secondary_x_label: false,
             show_confidence_band: ['low', 'high'],
+            y_accessor: ['close', 'low', 'high'],
+            legend: ['close','low','high'],
+            legend_target: '.legend',
             x_extended_ticks: true
         });
     });
-    d3.json('data/confidence_band.json', function(data) {
-        MG.data_graphic({
-            description: "Yearly UFO sightings from 1945 to 2010.",
-            data: data,
-            markers: [{'year': 1964, 'label': 'PDUFA - AZN'}],
-            width: 400,
-            height: 250,
-            target: "#AZN",
-            x_accessor: "year",
-            y_accessor: "sightings",
-        });
-    });
+
     </script>
 </body>
 </html>
