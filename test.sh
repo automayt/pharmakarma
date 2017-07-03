@@ -1,3 +1,4 @@
+#validate existence of arguments
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied. Please run with a ticker as the argument."
