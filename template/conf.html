@@ -22,14 +22,17 @@
     </style>
 </head>
 <body>
-    <div id="tickerName"></div>
+    <div id="EGLT"></div>
 
     <script>
-    d3.json('data/tickerNamestock.json', function(data) {
+    d3.json('data/stock.json', function(data) {
         data = MG.convert.date(data, 'date');
         var markers = [{
-            'date': new Date('labelTypeDate'),
-            'label': 'labelType'
+            'date': new Date('2012-05-25T00:00:00.000Z'),
+            'label': 'PDUFA'
+        }, {
+            'date': new Date('2014-03-15T00:00:00.000Z'),
+            'label': '2nd Milestone'
         }];
         MG.data_graphic({
             title: "Confidence Band",
@@ -39,7 +42,7 @@
             height: 200,
             right: 40,
             area: false,
-            target: '#tickerName',
+            target: '#EGLT',
             show_secondary_x_label: false,
             show_confidence_band: ['low', 'high'],
             y_accessor: ['close', 'low', 'high'],

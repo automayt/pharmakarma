@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html>
- <lang="en">
-    <meta charset="UTF-8">
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.js"></script>
-    <link rel="stylesheet" href="css/metricsgraphics.css">
-    <script src='js/mg_line_brushing.js'></script>
-    <link rel='stylesheet' href='css/mg_line_brushing.css' />
-
-    <style>
-        @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-
-        body {
-            font-family: 'Source Sans Pro';
-        }
-
-        html {
-            font-size: 12px;
-        }
-    </style>
-</head>
-<body>
     <div id="tickerName"></div>
 
     <script>
@@ -54,5 +30,4 @@
     });
 
     </script>
-</body>
-</html>
+
