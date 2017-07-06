@@ -7,4 +7,4 @@ jason@ubuntu:~/pharmakarma$ ./pharmakarma.sh halo > halo.html
 jason@ubuntu:~/pharmakarma$ python -m SimpleHTTPServer
 
 Open browser and open halo.html
-![Alt Text](/images/pharmakarma_gif)
+![Alt Text](/images/pharmakarma.gif)
