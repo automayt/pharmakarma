@@ -5,6 +5,8 @@ if [ $# -eq 0 ]
     exit
 fi
 
+command -v jq >/dev/null 2>&1 || { echo >&2 "I require jq but it's not installed.  Aborting."; exit 1; }
+
 #Update Historical data
 if test `find "data/historical.txt" -mmin +120`
 then
@@ -18,15 +20,20 @@ while read p; do
   tickerNameVar=`echo $p | awk '{print $1}'`
   labelType=`echo $p | awk '{print $2}'`
   labelTypeDate=`echo $p | awk -F" " '{print $3}'`
-  # need to calc start date to be 4 weeks prior and end date to be one week after;
-    #date -d"2014-09-11 -4 week"
-    #date -d"2014-09-11 +1 week"
+  oldDate=`date -d"${labelTypeDate} -4 week" +%F`
+  newDate=`date -d"${labelTypeDate} +1 week" +%F`
+
+
+#curl -s "https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?ticker=$tickerName&start_date=$oldDate&end_date=$newDate&qopts.columns=date,close,high,low&api_key=UsYsv7dKGxHHQ5oURP4B" | jq -c .datatable.data | jq -c . | perl -pe 's/\["([0-9]{4}-[0-9]{2}-[0-9]{2})",(.*?),(.*?),(.*?)\]/{"date": "\1", "close": \2, "high": \3, "low": \4}/g' | jq .
+#dates are fixed but...
+# getting {"quandl_error":{"code":"QESx08","message":"You cannot use start_date column as a filter."}}
+exit
+#> data/${tickerName}_${labelType}_${labelTypeDate}.json
+
   # need to add start and end for quandl query based on $labelTypeDate
   # need to print template for each iteration in loop to build total template.
 done <data/historytemp.txt
-
-
-#curl -s "https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?ticker=$tickerName&qopts.columns=date,close,high,low&api_key=UsYsv7dKGxHHQ5oURP4B" | jq -c .datatable.data | jq -c . | perl -pe 's/\["([0-9]{4}-[0-9]{2}-[0-9]{2})",(.*?),(.*?),(.*?)\]/{"date": "\1", "close": \2, "high": \3, "low": \4}/g' | jq . > data/${tickerName}stock.json
+#curl -s "https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?ticker=$tickerName&start_date=$oldDate&end_date=$newDateqopts.columns=date,close,high,low&api_key=UsYsv7dKGxHHQ5oURP4B" | jq -c .datatable.data | jq -c . | perl -pe 's/\["([0-9]{4}-[0-9]{2}-[0-9]{2})",(.*?),(.*?),(.*?)\]/{"date": "\1", "close": \2, "high": \3, "low": \4}/g' | jq . > data/${tickerName}stock.json
 
 #cat template/testtemplate.txt|sed "s/tickerName/$tickerName/g"
 
