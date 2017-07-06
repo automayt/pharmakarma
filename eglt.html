@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/metricsgraphics.css">
+    <link rel='stylesheet' href='css/mg_line_brushing.css' />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.js"></script>
+    <script src='js/mg_line_brushing.js'></script>
+
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+        body {
+            font-family: 'Source Sans Pro';
+        }
+
+        html {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="EGLT_crl_2017-06-19"></div> <script> d3.json('data/EGLT_crl_2017-06-19.json', function(data) { data = MG.convert.date(data, 'date'); var markers = [{ 'date': new Date('2017-06-19'), 'label': 'crl' }]; MG.data_graphic({ title: "EGLT crl on 2017-06-19", description: "Maybe a link to the article would be cool.", data: data, full_width: true, height: 200, right: 40, area: false, target: '#EGLT_crl_2017-06-19', show_secondary_x_label: false, show_confidence_band: ['low', 'high'], y_accessor: ['close', 'low', 'high'], legend: ['close','low','high'], legend_target: '.legend', x_extended_ticks: true, animate_on_load: true, missing_is_missing: true, interpolate: d3.curveLinear, x_sort: false, markers: markers, min_y_from_data: true }); }); </script> <div id="EGLT_approved_2017-01-08"></div> <script> d3.json('data/EGLT_approved_2017-01-08.json', function(data) { data = MG.convert.date(data, 'date'); var markers = [{ 'date': new Date('2017-01-08'), 'label': 'approved' }]; MG.data_graphic({ title: "EGLT approved on 2017-01-08", description: "Maybe a link to the article would be cool.", data: data, full_width: true, height: 200, right: 40, area: false, target: '#EGLT_approved_2017-01-08', show_secondary_x_label: false, show_confidence_band: ['low', 'high'], y_accessor: ['close', 'low', 'high'], legend: ['close','low','high'], legend_target: '.legend', x_extended_ticks: true, animate_on_load: true, missing_is_missing: true, interpolate: d3.curveLinear, x_sort: false, markers: markers, min_y_from_data: true }); }); </script>
+</body>
+</html>

@@ -2,12 +2,12 @@
 <html>
  <lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/metricsgraphics.css">
+    <link rel='stylesheet' href='css/mg_line_brushing.css' />
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.11.0/metricsgraphics.js"></script>
-    <link rel="stylesheet" href="css/metricsgraphics.css">
     <script src='js/mg_line_brushing.js'></script>
-    <link rel='stylesheet' href='css/mg_line_brushing.css' />
 
     <style>
         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -22,40 +22,6 @@
     </style>
 </head>
 <body>
-    <div id="EGLT"></div>
-
-    <script>
-    d3.json('data/stock.json', function(data) {
-        data = MG.convert.date(data, 'date');
-        var markers = [{
-            'date': new Date('2012-05-25T00:00:00.000Z'),
-            'label': 'PDUFA'
-        }, {
-            'date': new Date('2014-03-15T00:00:00.000Z'),
-            'label': '2nd Milestone'
-        }];
-        MG.data_graphic({
-            title: "Confidence Band",
-            description: "This is an example of a graphic with a confidence band and extended x-axis ticks enabled.",
-            data: data,
-            width: 600,
-            height: 200,
-            right: 40,
-            area: false,
-            target: '#EGLT',
-            show_secondary_x_label: false,
-            show_confidence_band: ['low', 'high'],
-            y_accessor: ['close', 'low', 'high'],
-            legend: ['close','low','high'],
-            legend_target: '.legend',
-            x_extended_ticks: true,
-            animate_on_load: true,
-            missing_is_hidden: true,
-            markers: markers,
-            missing_is_hidden_accessor: true
-        });
-    });
-
-    </script>
+replaceDataHere
 </body>
 </html>

@@ -1,21 +1,21 @@
-    <div id="tickerNamelabelType"></div>
+    <div id="tickerName_labelType_labelTypeDate"></div>
 
     <script>
-    d3.json('data/tickerNamelabelTypestock.json', function(data) {
+    d3.json('data/tickerName_labelType_labelTypeDate.json', function(data) {
         data = MG.convert.date(data, 'date');
         var markers = [{
             'date': new Date('labelTypeDate'),
             'label': 'labelType'
         }];
         MG.data_graphic({
-            title: "Confidence Band",
-            description: "This is an example of a graphic with a confidence band and extended x-axis ticks enabled.",
+            title: "titleHere",
+            description: "Maybe a link to the article would be cool.",
             data: data,
-            width: 600,
+            full_width: true,
             height: 200,
             right: 40,
             area: false,
-            target: '#tickerNamelabelType',
+            target: '#tickerName_labelType_labelTypeDate',
             show_secondary_x_label: false,
             show_confidence_band: ['low', 'high'],
             y_accessor: ['close', 'low', 'high'],
@@ -23,11 +23,12 @@
             legend_target: '.legend',
             x_extended_ticks: true,
             animate_on_load: true,
-            missing_is_hidden: true,
+            missing_is_missing: true,
+            interpolate: d3.curveLinear,
+            x_sort: false,
             markers: markers,
-            missing_is_hidden_accessor: true
+            min_y_from_data: true
         });
     });
 
     </script>
-
