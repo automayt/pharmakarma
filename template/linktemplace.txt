@@ -1,4 +1,11 @@
 <ul style="list-style-type:disc">
-<li><a href="https://www.biopharmcatalyst.com/company/tickerName">BioPharmCatalyst Profile for tickerName</a></li>
-<li><a href="https://twitter.com/search?f=news&vertical=default&q=%24tickerName&src=typd">Twitter News for tickerName</a></li>
+<h3>Profiles</h3>
+<li><a href="https://www.biopharmcatalyst.com/company/tickerName" target="_blank">BioPharmCatalyst Profile for tickerName</a></li>
+<li><a href="https://www.barchart.com/stocks/quotes/tickerName" target="_blank">BarChart Profile for tickerName</a></li>
+<li><a href="https://www.finviz.com/quote.ashx?t=tickerName" target="_blank">FinViz Profile for tickerName</a></li>
+<li><a href="http://stockcharts.com/h-sc/ui?s=tickerName" target="_blank">StockCharts Profile for tickerName</a></li>
+<li><a href="http://bigcharts.marketwatch.com/quickchart/quickchart.asp?symb=tickerName&insttype=&freq=&show=" target="_blank">MarketWatch Profile for tickerName</a></li>
+<li><a href="https://finance.yahoo.com/quote/tickerName?p=tickerName" target="_blank">Yahoo Finance Profile for tickerName</a></li>
+<h3>News</h3>
+<li><a href="https://twitter.com/search?f=news&vertical=default&q=%24tickerName&src=typd" target="_blank">Twitter News for tickerName</a></li>
 </ul>

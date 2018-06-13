@@ -20,19 +20,19 @@ fi
 tickerName=$1
 cat data/historical.txt | grep -i ${tickerName} > data/historytemp.txt
 #Analyze
-marketCap=$(curl -s "https://www.quandl.com/api/v3/datatables/SHARADAR/SF1.csv?ticker=VRX&qopts.columns=marketcap&api_key=UsYsv7dKGxHHQ5oURP4B" | tail -1)
-rm analysistemp.test
 if grep -iq crl "data/historytemp.txt"; then
-  grep "CRL" template/analysis.txt >> analysistemp.test
+  grep "CRL detected" template/analysis.txt >> analysistemp.test
   else
   grep "No CRL" template/analysis.txt >> analysistemp.test
 fi
+
+marketCap=$(curl -s "https://www.quandl.com/api/v3/datatables/SHARADAR/SF1.csv?ticker=$tickerName&qopts.columns=marketcap&api_key=UsYsv7dKGxHHQ5oURP4B" | tail -1)
 if [ "$marketCap" -ge 2000000000 -a "$marketCap" -le 10000000000 ]; then 
  grep "midsize" template/analysis.txt >> analysistemp.test
 elif [ "$marketCap" -gt 10000000000 ]; then
  grep "largesize" template/analysis.txt >> analysistemp.test
 elif [ "$marketCap" -lt 2000000000 ]; then
- grep "largesize" template/analysis.txt >> analysistemp.test
+ grep "smallsize" template/analysis.txt >> analysistemp.test
 fi
 
 while read p; do
@@ -45,7 +45,7 @@ while read p; do
 
 
 #Create Info
-cat data/historical.txt | grep -i vrx | sed 's/^/<div>/g'| sed 's/$/<\/div>/g' > infotemp.test
+cat data/historical.txt | grep -i $tickerName | sed 's/^/<div>/g'| sed 's/$/<\/div>/g' > infotemp.test
 
 #Create Links
 cat template/linktemplace.txt | sed "s/tickerName/${tickerName}/g" > linktemp.test
