@@ -1,0 +1,4 @@
+<ul style="list-style-type:disc">
+<li><a href="https://www.biopharmcatalyst.com/company/tickerName">BioPharmCatalyst Profile for tickerName</a></li>
+<li><a href="https://twitter.com/search?f=news&vertical=default&q=%24tickerName&src=typd">Twitter News for tickerName</a></li>
+</ul>
