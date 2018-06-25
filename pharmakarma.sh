@@ -29,26 +29,29 @@ fi
 marketCap=$(curl -s "https://www.quandl.com/api/v3/datatables/SHARADAR/SF1.csv?ticker=$tickerName&qopts.columns=marketcap&api_key=UsYsv7dKGxHHQ5oURP4B" | tail -1)
 if [ "$marketCap" -ge 2000000000 -a "$marketCap" -le 10000000000 ]; then 
  grep "midsize" template/analysis.txt >> analysistemp.test
+ grep "midsize" template/advice.txt >> advicetemp.test
 elif [ "$marketCap" -gt 10000000000 ]; then
  grep "largesize" template/analysis.txt >> analysistemp.test
+ grep "largesize" template/advice.txt >> advicetemp.test
 elif [ "$marketCap" -lt 2000000000 ]; then
  grep "smallsize" template/analysis.txt >> analysistemp.test
+ grep "smallsize" template/advice.txt >> advicetemp.test
 fi
 
 while read p; do
   tickerNameVar=`echo $p | awk '{print $1}'`
+  tickerNameUpper=`echo $tickerName | tr '[:lower:]' '[:upper:]'`
   labelType=`echo $p | awk '{print $2}'|tr -dc '[:alnum:]\n\r'`
   labelTypeDate=`echo $p | awk -F" " '{print $3}'`
   oldDate=`date -d"${labelTypeDate} -4 week" +%F`
   newDate=`date -d"${labelTypeDate} +2 week" +%F`
   titleHere=`echo ${tickerNameVar} ${labelType} on ${labelTypeDate}`
 
-
 #Create Info
 cat data/historical.txt | grep -i $tickerName | sed 's/^/<div>/g'| sed 's/$/<\/div>/g' > infotemp.test
 
 #Create Links
-cat template/linktemplace.txt | sed "s/tickerName/${tickerName}/g" > linktemp.test
+cat template/linktemplate.txt | sed "s/tickerName/${tickerName}/g" > linktemp.test
 
 #Create Data
 curl -s "https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?ticker=$tickerName&date.gt=$oldDate&date.lt=$newDate&qopts.columns=date,close,high,low&api_key=UsYsv7dKGxHHQ5oURP4B" | jq -c .datatable.data | jq -c . | perl -pe 's/\["([0-9]{4}-[0-9]{2}-[0-9]{2})",(.*?),(.*?),(.*?)\]/{"date": "\1", "close": \2, "high": \3, "low": \4}/g' | jq . > data/${tickerNameVar}_${labelType}_${labelTypeDate}.json
@@ -68,7 +71,10 @@ cat template/conf.html | sed '/replaceInfoHere/{
 }' | sed '/replaceAnalysisHere/{
     s/replaceAnalysisHere//g
     r analysistemp.test
-}'
+}' | sed '/replaceAdviceHere/{
+    s/replaceAdviceHere//g
+    r advicetemp.test
+}' | sed "s/replaceTickerHere/$tickerNameUpper/g"
 
 
 
