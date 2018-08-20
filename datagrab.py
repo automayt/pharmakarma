@@ -17,15 +17,15 @@ if os.path.exists(cal_path):
     if filetime < one_hour_ago:
         print("File is more than one hour old.")
         pkfunctions.hist_cal()
-    else:
-        print("The file doesn't need to be downloaded.")
 else:
     pkfunctions.hist_cal()
 
 f = open(cal_path, 'r', encoding='utf-8')
 s = f.read()
 soup = BeautifulSoup(s,'lxml')
-print(soup)
+html = list(soup.children)[1]
+body = list(html.children)[3]
+print(body)
 # page = requests.get(cal_path)
 # print(page.content)
 
