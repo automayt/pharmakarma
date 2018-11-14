@@ -36,14 +36,35 @@
       <img src="static/pharmakarma_small_min.png" width="30" height="30" alt="">
       Pharmakarma
     </a>
-    <form class="form-inline">
-      
-   <input class="form-control mr-sm-2" type="search" placeholder="Enter Stock Ticker" aria-label="Search">
-   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Analyze</button>
- </form>
+    <form class="form-inline" method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.hidden_tag() }}
+      {{ form.stockpick(placeholder='Enter Stock Ticker', class='form-control mr-sm-2', type="search")}}
+      {{ form.submit(class="btn btn-outline-success my-2 my-sm-0")}}
+  </form>
   </nav>
 
   {% block content %}{% endblock %}
+
+  <div class="card text-center">
+    <div class="card-header">
+      Pharmakarma Resources
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Pharmakarma leverages several outside resources for visualizations and stock research.</h5>
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://www.biopharmcatalyst.com">BioPharmCatalyst</a>
+        </li>
+        <li>
+          <a href="https://www.quandl.com/">Quandl</a>
+        </li>
+        <li>
+          <a href="https://clinicaltrials.gov/">U.S. National Library of Medicine Clinical Trials</a>
+        </li>
+      </ul>     <a href="https://github.com/automayt/pharmakarma" class="btn btn-primary">Pharmakarma on Github</a>
+    </div>
+  </div>
 
   <nav class="footer-copyright text-center py-3 fixed-bottom navbar-light bg-light">
     <a>Invest at your own risk.</a>

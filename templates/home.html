@@ -1,6 +1,13 @@
 {% extends "base.html" %}
+
 {% block content %}
 {% if stockpick %}
+<title>Simple tables</title>
+  <h1>Test table</h1>
+  {% for table in tables %}
+    {{ table|safe }}
+  {% endfor %}
+</div>
     <p>your stock blah is {{stockpick}}</p>
 {% else %}
 <div class="jumbotron">
@@ -8,38 +15,13 @@
   <p class="lead">This is a simple analysis tool to investigate potential pharmaceutical investment candidates.</p>
   <hr class="my-4">
   <p>Please enter a ticket below.</p>
-  <form class="form-inline">
- <input class="form-control mr-sm-2" type="search" placeholder="Enter Stock Ticker" aria-label="Search">
- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Analyze</button>
+  <form class="form-inline" method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.stockpick(placeholder='Enter Stock Ticker', class='form-control mr-sm-2', type="search")}}
+    {{ form.submit(class="btn btn-outline-success my-2 my-sm-0")}}
 </form>
 </div>
 {% endif %}
-
-<form method="POST">
-    {# This hidden_tag is a CSRF security feature. #}
-    {{ form.hidden_tag() }}
-    {{ form.stockpick.label }} {{ form.stockpick(class='some-css-class') }}
-    {{ form.submit() }}
-</form>
-
-<div class="card text-center">
-  <div class="card-header">
-    Pharmakarma Resources
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Pharmakarma leverages several outside resources for visualizations and stock research.</h5>
-    <ul class="list-unstyled">
-      <li>
-        <a href="https://www.biopharmcatalyst.com">BioPharmCatalyst</a>
-      </li>
-      <li>
-        <a href="https://www.quandl.com/">Quandl</a>
-      </li>
-      <li>
-        <a href="https://clinicaltrials.gov/">U.S. National Library of Medicine Clinical Trials</a>
-      </li>
-    </ul>     <a href="https://github.com/automayt/pharmakarma" class="btn btn-primary">Pharmakarma on Github</a>
-  </div>
-</div>
 
 {% endblock %}
