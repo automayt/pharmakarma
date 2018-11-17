@@ -38,23 +38,29 @@ def index():
         stockpick = form.stockpick.data
         # Reset the form's stockpick data to be False
         form.stockpick.data = ''
-        return render_template('home.html',form=form, stockpick=stockpick)
-
-    else:
-    # one_hour_ago = datetime.now() - timedelta(hours=1)
-    # if os.path.exists("history.csv"):
-    #     filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
-    #     if filetime < one_hour_ago:
-    #         histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
-    #         histdata[0].to_csv('history.csv',index=False)
-    # else:
-    #     histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
-    #     histdata[0].to_csv('history.csv',index=False)
         df = pd.read_csv('history.csv').set_index('Ticker')
         df[["Date","Catalyst"]] = df.Catalyst.str.extract('(?P<Date>[0-9]{2}\/[0-9]{2}\/[0-9]{4})(?P<Catalyst>.*)', expand=True)
-        data = df.loc["OCUL"]
+        data = df.loc[stockpick]
         pd.set_option('display.max_colwidth', -1)
         return render_template('view.html',form=form, tables=[data.to_html()])
+    else:
+        return render_template('home.html',form=form, stockpick=stockpick)
+
+    # else:
+    # # one_hour_ago = datetime.now() - timedelta(hours=1)
+    # # if os.path.exists("history.csv"):
+    # #     filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
+    # #     if filetime < one_hour_ago:
+    # #         histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
+    # #         histdata[0].to_csv('history.csv',index=False)
+    # # else:
+    # #     histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
+    # #     histdata[0].to_csv('history.csv',index=False)
+    #     df = pd.read_csv('history.csv').set_index('Ticker')
+    #     df[["Date","Catalyst"]] = df.Catalyst.str.extract('(?P<Date>[0-9]{2}\/[0-9]{2}\/[0-9]{4})(?P<Catalyst>.*)', expand=True)
+    #     data = df.loc["OCUL"]
+    #     pd.set_option('display.max_colwidth', -1)
+    #     return render_template('view.html',form=form, tables=[data.to_html()])
 
 
 # def show_tables():
@@ -73,21 +79,21 @@ def index():
 #     pd.set_option('display.max_colwidth', -1)
 #     return render_template('view.html',tables=[data.to_html()])
 
-# @app.route("/tables", methods=['GET', 'POST'])
+@app.route("/tables", methods=['GET', 'POST'])
+
+def show_tables():
+    stockpick = False
+    # Create instance of the form.
+    form = InfoForm()
+    # If the form is valid on submission (we'll talk about validation next)
+    if form.validate_on_submit():
+        # Grab the data from the stockpick on the form.
+        stockpick = form.stockpick.data
+        # Reset the form's stockpick data to be False
+        form.stockpick.data = ''
+        return render_template('home.html',form=form, stockpick=stockpick)
 #
-# def show_tables():
-#     stockpick = False
-#     # Create instance of the form.
-#     form = InfoForm()
-#     # If the form is valid on submission (we'll talk about validation next)
-#     if form.validate_on_submit():
-#         # Grab the data from the stockpick on the form.
-#         stockpick = form.stockpick.data
-#         # Reset the form's stockpick data to be False
-#         form.stockpick.data = ''
-#         return render_template('home.html',form=form, stockpick=stockpick)
-#
-#     else:
+    else:
 #     # one_hour_ago = datetime.now() - timedelta(hours=1)
 #     # if os.path.exists("history.csv"):
 #     #     filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
@@ -97,11 +103,11 @@ def index():
 #     # else:
 #     #     histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
 #     #     histdata[0].to_csv('history.csv',index=False)
-#         df = pd.read_csv('history.csv').set_index('Ticker')
-#         df[["Date","Catalyst"]] = df.Catalyst.str.extract('(?P<Date>[0-9]{2}\/[0-9]{2}\/[0-9]{4})(?P<Catalyst>.*)', expand=True)
-#         data = df.loc["OCUL"]
-#         pd.set_option('display.max_colwidth', -1)
-#         return render_template('view.html',form=form, tables=[data.to_html()])
+        df = pd.read_csv('history.csv').set_index('Ticker')
+        df[["Date","Catalyst"]] = df.Catalyst.str.extract('(?P<Date>[0-9]{2}\/[0-9]{2}\/[0-9]{4})(?P<Catalyst>.*)', expand=True)
+        data = df.loc["OCUL"]
+        pd.set_option('display.max_colwidth', -1)
+        return render_template('view.html',form=form, tables=[data.to_html()])
 
 @app.route('/plot.png')
 def plot():
