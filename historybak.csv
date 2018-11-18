@@ -190,9 +190,9 @@ NVAX,RSV vaccine - Resolve trial  Respiratory Syncytial Virus (RSV) in older adu
 ARLZ,YOSPRALA (PA32540/PA8140) Secondary prevention of cardiovascular disease in patients at risk for aspirin-induced gastric ulcers,Approved,"09/15/2016  Approval announced September 15, 2016."
 VICL,ASP0113 Vaccine  Kidney transplant recipients,Phase 2,"09/19/2016  Phase 2 data released September 19, 2016 - did not meet primary endpoint."
 SRPT,Eteplirsen - Exon 51  Duchenne muscular dystrophy,Approved,"09/19/2016  Approved September 19, 2016."
+GILD,Yescarta (axicabtagene ciloleucel)  Refractory Non-Hodgkin's Lymphoma (NHL) - cancer,Phase 2,"09/26/2016  Phase 2 pivotal top-line data released September 26, 2016. Primary analysis due 1Q 2017. BLA filing due late 2016."
 DRRX,Remoxy  Chronic pain,CRL,"09/26/2016  CRL received September 26, 2016."
 PTIE,Remoxy  Chronic pain,CRL,"09/26/2016  CRL received September 26, 2016."
-GILD,Yescarta (axicabtagene ciloleucel)  Refractory Non-Hodgkin's Lymphoma (NHL) - cancer,Phase 2,"09/26/2016  Phase 2 pivotal top-line data released September 26, 2016. Primary analysis due 1Q 2017. BLA filing due late 2016."
 ITCI,Lumateperone  Schizophrenia,NDA Filing,"09/28/2016  Phase 3 trial failed - September 28, 2016."
 GNCA,GEN-003  Genital herpes,-,09/29/2016  Phase 2b virologic efficacy data released September 2016.
 ABUS,ARB-1467  Hepatitis B (HBV),Phase 2,09/29/2016  Phase 2 single dose data released September 2016.
@@ -454,10 +454,12 @@ HALO,PEGPH20 - HALO-301  Pancreatic cancer,Phase 3,"06/04/2017  Phase 2 data rel
 PIRS,PRS-080  Anemia of chronic disease,Phase 2a,"06/04/2017  Phase 1b data released at ERA-EDTA June 4, 2017."
 RNN,RX-3117  Advanced bladder cancer - 3rd line,Phase 2a,"06/04/2017  Phase 2a initial presented at ASCO June 4, 2017."
 FPRX,Cabiralizumab (FPA008)  Pigmented Villonodular Synovitis (PVNS),Phase 1/2,"06/04/2017  Phase 1/2 initial data released at ASCO June 4, 2017."
+ZYME,"ZW25  HER2-expressing Cancers - ovarian, breast, gastric",Phase 1,"06/04/2017  Phase 1 initial presented at ASCO June 4, 2017."
 MRK,Keytruda - KEYNOTE-045 Bladder Cancer,Phase 3,06/04/2017  Phase 3 trial met its primary endpoint - October 2016. Updated data presented at ASCO 2017. HR 0.70. OS 10.3 months.
 AZN,Lynparza  Breast cancer,Approved,"06/04/2017  Phase 3 data released February 17, 2016 - primary endpoint met. Late breaker at ASCO June 4, 2017 showed HR of 0.58 (42% reduction of risk of disease progression or death)."
 MRK,Lynparza  Breast cancer,Approved,"06/04/2017  Phase 3 data released February 17, 2016 - primary endpoint met. Late breaker at ASCO June 4, 2017 showed HR of 0.58 (42% reduction of risk of disease progression or death)."
 CELG,Lico-cel (CD-19 JCAR017) - TRANSCEND  r/r B cell non-Hodgkin lymphoma - cancer,Phase 1/2,"06/05/2017  Pivotal trial to be initiated in 2017. ASCO Poster Session June 5, 2017 - ORR 86%."
+CLSN,GEN-1 OVATION 2  Ovarian cancer,Phase 1/2,06/05/2017  Phase 1b interim data released at ASCO 2017 - ORR 86%.
 CALA,CX-1158-101  Solid tumors - cancer,Phase 1,"06/05/2017  Phase 1 oral presentation at ASCO, June 5, 2017."
 BGNE,BGB-A317  Solid tumors,Phase 1/2,"06/05/2017  Phase 1/2 preliminary data presented at ASCO June 5, 2017."
 NLNK,Indoximod + Sipuleucel-T  Metastatic castration resistant prostate cancer (mCRPC),Phase 2,"06/05/2017  Phase 2 poster presentation at ASCO June 5, 2017."
@@ -466,7 +468,6 @@ INCY,Epacadostat with Opdivo (nivolumab) - (ECHO-204)  Solid tumors,Phase 1/2,"0
 BMY,Epacadostat with Opdivo (nivolumab) - (ECHO-204)  Solid tumors,Phase 1/2,"06/05/2017  Phase 1/2 trial enrolling. Oral presentation at ASCO June 5, 2017."
 IOVA,LN-144  Refractory metastatic melanoma,Phase 2,"06/05/2017  Phase 2 second cohort commenced enrollment - May 19, 2017. Initial data presented at ASCO June 5, 2017."
 CRVS,CPI-444  Solid tumors - cancer,Phase 1b,"06/05/2017  Phase 1/1b preliminary data released November 2016. Further update at ASCO June 5, 2017."
-CLSN,GEN-1 OVATION 2  Ovarian cancer,Phase 1/2,06/05/2017  Phase 1b interim data released at ASCO 2017 - ORR 86%.
 PBYI,Roche (RHHBY) - Perjeta + Herceptin (APHINITY)  Adjuvant HER2+ breast cancer,Phase 3,"06/05/2017  Note this trial is conducted by competitor Roche (RHHBY), NOT by Puma. Primary endpoint was met March 2, 2017. Data released June 5, 2017 - HR 0.81. Disease-free-survival +0.9% over Herceptin."
 GLYC,Uproleselan (GMI-1271)  Acute myeloid leukemia (AML) newly diagnosed and refractory - cancer,Phase 1/2,"06/05/2017  Phase 2 enrollment completed - announced May 31, 2017. Data updates at ASCO June 5, 2017."
 GILD,Axicabtagene ciloleucel - KTE-C19 (ZUMA-3) Adult patients with r/r ALL - cancer,Phase 1/2,"06/05/2017  Phase 2 data due 2018. Phase 1 data released at ASCO June 5, 2017. Complete remission 73%."
@@ -484,8 +485,8 @@ RGLS,RG-101 Hepatitis C virus (HCV),Phase 2,"06/12/2017  Clinical hold placed Ju
 XLRN,Dalantercept - DART Study  Renal Cell Carcinoma (RCC) - cancer,Phase 2,"06/12/2017  Phase 2 data released June 12, 2017 - primary endpoint not met."
 CHRS,CHS-1701  Pegfilgrastim biosimilar,Approved,"06/12/2017  CRL announced June 12, 2017."
 BTX,Renevia  Restoring normal skin contours in for patients with HIV,Phase 3,"06/14/2017  Pivotal trial data released June 14, 2017 - primary endpoint met."
-RDHL,BEKINDA -GUARD  Gastroenteritis,Phase 3,"06/14/2017  Phase 3 top-line data released June 14, 2017 - primary endpoint met."
 ALDX,Reproxalap (ADX-102)  Allergic conjunctivitis,Phase 3,"06/14/2017  Phase 2b data released June 14 2017 - primary endpoint not met. However, Phase 3 trial is planned."
+RDHL,BEKINDA -GUARD  Gastroenteritis,Phase 3,"06/14/2017  Phase 3 top-line data released June 14, 2017 - primary endpoint met."
 KURA,Tipifarnib  Relapsed or refractory peripheral T-cell lymphoma,Phase 2,"06/14/2017  Phase 2 data presented at ICML conference on June 14, 2017 - 3/18 partial responses."
 EPZM,Tazemetostat  Follicular lymphoma,Phase 2,"06/14/2017  Phase 2 data released June 14, 2017 - DLBCL ORR 29%."
 SELB,SEL-212  Tophaceous gout,Phase 3,"06/15/2017  Phase 2 dosing commenced late October 2016. Initial data released at EULAR June 15, 2017."
@@ -534,9 +535,8 @@ BMY,ORENCIA  Psoriatic Arthritis (PsA),Approved,"07/06/2017  Approval announced 
 RCKT,Trabodenoson and latanoprost  Glaucoma,Phase 2,"07/07/2017  Phase 2 trial failed - noted July 7, 2017."
 IMRN,IMM-124E  Nonalcoholic steatohepatitis (NASH),Phase 2,"07/10/2017  Phase 2 top-line data due 4Q 2017. Interim analysis July 10, 2017 showed no statistical difference with placebo."
 ALNY,Fitusiran Hemophilia A and B,Phase 2,"07/10/2017  Phase 2 Open-label Extension Study data released July 10, 2017 at ISTH."
-ONCE,SPK-9001  Hemophilia B,Phase 1/2,"07/10/2017  Phase 1/2 updated data released July 10, 2017. 99% fall in infusion rate."
 ARNA,Ralinepag  Pulmonary Arterial Hypertension,Phase 3,"07/10/2017  Phase 2 data released July 10, 2017. Primary endpoint met. Secondary missed."
-UTHR,Ralinepag  Pulmonary Arterial Hypertension,Phase 3,"07/10/2017  Phase 2 data released July 10, 2017. Primary endpoint met. Secondary missed."
+ONCE,SPK-9001  Hemophilia B,Phase 1/2,"07/10/2017  Phase 1/2 updated data released July 10, 2017. 99% fall in infusion rate."
 QURE,AMT-060  hemophilia B,Phase 1/2,"07/10/2017  Phase 1/2 long term updated data presented July 10, 2017."
 SVRA,Aironite - INDIE  Heart failure with preserved ejection fraction (HFpEF),Phase 2,"07/11/2017  Phase 2 interim data released July 11, 2017."
 AMGN,BLINCYTO  Ph+ R/R ALL,Approved,"07/11/2017  PDUFA date under priority review August 14, 2017. Approval announced July 11, 2017."
@@ -549,8 +549,8 @@ NVS,Kymriah (CTL019)  Relapsed/Refractory B-Cell Acute lymphoblastic leukemia,Ap
 JNJ,Guselkumab  Plaque psoriasis,Approved,"07/13/2017  Approval announced July 13, 2017."
 AMGN,EVENITY (Romosozumab)  Osteoporosis,BLA Filing,"07/16/2017  CRL issued July 16, 2017."
 PBYI,Neratinib (NERLYNX)  Extended adjuvant HER2-positive early stage breast cancer,Approved,"07/17/2017  Approval announced July 17, 2017."
+CBAY,Seladelpar  Primary biliary cholangitis (PBC),Phase 2,"07/17/2017  Phase 2 top-line data released late May 2016. Positive interim data from second trial data released July 17, 2017."
 PRTK,Omadacycline - oral  Acute bacterial skin and skin structure infections (ABSSSI),Phase 3,"07/17/2017  Phase 3 data released July 17, 2017 - all endpoints met."
-CBAY,Seladelpar  Primary biliary cholangitis (PBC),Phase 3,"07/17/2017  Phase 2 top-line data released late May 2016. Positive interim data from second trial data released July 17, 2017."
 VRTX,VX-152 in combination with tezacaftor and ivacaftor  Cystic fibrosis who have one F508del mutation and one minimal function mutation and patients with two copies of the F508del mutation,Phase 2,"07/18/2017  Phase 2 data released July 18, 2017. ppFEV1 of 9.7 percentage points."
 VRTX,VX-659 in combination with tezacaftor and ivacaftor  Cystic fibrosis (CF) who have one F508del mutation and one minimal function mutation (F508del/Min),Phase 3,"07/18/2017  Phase 1 data released July 18, 2017. ppFEV1 of 9.6 percentage points."
 VRTX,VX-440 in combination with tezacaftor and ivacaftor  Cystic fibrosis who have one F508del mutation and one minimal function mutation and patients with two copies of the F508del mutation,Phase 2,"07/18/2017  Phase 2 data released July 18, 2017. ppFEV1 of 12.0 percentage points."
@@ -570,8 +570,8 @@ PCRX,EXPAREL  Post surgical pain,Approved,"07/25/2017  Phase 3 data released Jul
 PCRX,EXPAREL  Post surgical pain,PDUFA,"07/25/2017  Phase 3 data released July 25, 2017. Upper extremity met primary endpoint, lower extremity trial missed endpoint."
 TTPH,Eravacycline (TP-434) - IGNITE4  cIAI (complicated intra-abdominal infections),Approved,"07/25/2017  Phase 3 data released July 25, 2017 - primary endpoint met. NDA filing due 1Q 2018."
 EGRX,Ryanodex  Exertional heat stroke (EHS),CRL,"07/26/2017  CRL issued July 26, 2017. Additional trial required."
-AZN,Tagrisso - FLAURA  First-line lung cancer,Approved,"07/27/2017  Phase 3 data released July 27, 2017 - PFS improvement noted."
 AZN,Durvalumab +/- tremelimumab (MYSTIC)  Lung cancer,Phase 3,"07/27/2017  Phase 3 data released July 27, 2017 - primary endpoint not met."
+AZN,Tagrisso - FLAURA  First-line lung cancer,Approved,"07/27/2017  Phase 3 data released July 27, 2017 - PFS improvement noted."
 AZN,Tagrisso - FLAURA  First-line lung cancer,PDUFA priority review,"07/27/2017  Phase 3 data released July 27, 2017 - PFS improvement noted."
 DVAX,HEPLISAV-B Hepatitis B,Approved,"07/28/2017  Advisory Committee Meeting July 28, 2017 voted 11 -1 in favor of recommending approval."
 ICPT,Obeticholic acid (OCA) AESOP  Primary Sclerosing Cholangitis (PSC),Phase 2,"07/31/2017  Phase 2 data released July 31, 2017 - primary endpoint met."
@@ -591,7 +591,7 @@ ABBV,Glecaprevir/Pibrentasvir (G/P) Hepatitis C virus (HCV),Approved,"08/03/2017
 PFE,Xeljanz  Psoriatic arthritis,Phase 3,"08/03/2017  PDUFA date December 2017. No exact date given. December 31, 2017 noted as last possible date using guidance of ""December 31"". Advisory Committee Meeting August 3, 2017 voted 10-1 in favor of recommending approval."
 JAZZ,Vyxeos  Acute myeloid leukemia,Approved,"08/03/2017  Approval announced August 3, 2017."
 CRIS,CUDC-907  Diffuse-large B-cell lymphoma (DLBCL),Phase 2,"08/03/2017  Phase 2 initial data released August 3, 2017 - ORR 19%."
-LLY,Lasmiditan - SPARTAN  Migraine,NDA Filing,"08/04/2017  Phase 3 data released August 4, 2017 - endpoints met. NDA filing due 2H 2018."
+LLY,Lasmiditan - SPARTAN  Migraine,Phase 3,"08/04/2017  Phase 3 data released August 4, 2017 - endpoints met. NDA filing due 2H 2018."
 FGEN,Pamrevlumab (FG-3019)  Idiopathic pulmonary fibrosis,Phase 2,"08/07/2017  Phase 2 data released August 7, 2017 - primary endpoint met."
 BHC,Latanoprostene bunod  Open angle glaucoma (OAG) or ocular hypertension (OHT),Approved,"08/07/2017  CRL issued August 7, 2017."
 MYOK,MYK-461 - EXPLORER-HCM  Hypertrophic cardiomyopathy (HCM),Phase 3,"08/07/2017  Phase 2 data released August 7, 2017 - primary endpoint met."
@@ -733,7 +733,7 @@ SRPT,Golodirsen - Exon 53  Duchenne muscular dystrophy,NDA Filing,"10/07/2017  P
 ANAB,ANB020  Moderate-to-severe adult atopic dermatitis,Phase 2b,"10/10/2017  Phase 2a positive data released October 10, 2017"
 MYL,MYL-1401H  Neulasta biosimilar,Approved,"10/10/2017  CRL issued October 10, 2017."
 LLY,Abemaciclib - JUNIPER  Thrid line KRAS mutation positive Non-small cell lung cancer (NSCLC),Phase 3,"10/10/2017  Phase 3 data released October 10, 2017 - primary endpoint not met"
-ARDX,Tenapanor (T3MPO-2)  Constipation-predominant irritable bowel syndrome (IBS-C),PDUFA,"10/11/2017  Phase 3 data released October 11, 2017. Primary endpoint met but with relatively high rates of diarrhea."
+ARDX,Tenapanor (T3MPO-2)  Constipation-predominant irritable bowel syndrome (IBS-C),NDA Filing,"10/11/2017  Phase 3 data released October 11, 2017. Primary endpoint met but with relatively high rates of diarrhea."
 MRK,Anacetrapib (MK-0859)  Raising HDL-C and reducing LDL-C,Phase 3,"10/11/2017  Phase 3 data due released June 27, 2017. Primary endpoint met but noted August 29, 2017 that key secondary endpoint was not met. Announced October 11, 2017 that it will not seek regulatory approval."
 ATRS,XYOSTED (testosterone enanthate)  Testosterone deficiency,Approved,"10/12/2017  PDUFA date October 20, 2017. Noted October 12, 2017 that the FDA has identified deficiencies with the NDA."
 ONCE,Luxturna (voretigene neparvovec)  Inherited retinal dystrophies,Approved,"10/12/2017  Advisory Committee Meeting October 12, 2017 voted 16-0 in favor of recommending approval."
@@ -996,6 +996,7 @@ ABIO,Gencaro - GENETIC-AF trial Chronic Heart Failure,Phase 2b,"02/26/2018  Phas
 CELG,Ozanimod - RADIANCE  Relapsing Multiple Sclerosis,Phase 3,"02/27/2018  Phase 3 data due released May 22, 2017 - primary endpoint met, disability endpoint not met. NDA filed December 2017. Refusal-to-file letter issued February 27, 2018."
 TBPH,Telavancin  Bacteremia,Phase 3,02/27/2018  Phase 3 trial discontinued following recent interim analysis - announced during earnings release. Exact date unclear.
 NVAX,NanoFlu vaccine  Influenza,Phase 2,"02/28/2018  Phase 1/2 top-line data released February 28, 2018."
+HTBX,HS-110 and nivolumab (Opdivo)  Non-small cell lung cancer (NSCLC),Phase 1b,"02/28/2018  Phase 2 initial data released February 28, 2018. 17% partial response; 40% stable disease."
 MBVX,"MVT-1075  Pancreatic, colon and lung cancers",Phase 1,"02/28/2018  Phase 1 interim data released February 28, 2018 showed 2/3 patients with stable disease and 1/3 with progressive disease."
 SRNE,ZTlido (lidocaine patch 1.8%)  Pain associated with post-herpetic neuralgia (PHN),Approved,"02/28/2018  Approval announced February 28, 2018."
 HTBX,HS-110 and nivolumab (Opdivo)  Non-small cell lung cancer (NSCLC),Phase 2,"02/28/2018  Phase 2 initial data released February 28, 2018. 17% partial response; 40% stable disease."
@@ -1055,9 +1056,9 @@ BIIB,Natalizumab (α4-integrin inhibitor)  Acute ischemic stroke,Phase 2b,"04/03
 MDGL,MGL-3196 Heterozygous familial hypercholesterolemia (HeFH),Phase 2,"04/03/2018  Phase 2 top-line data released February 8, 2018 - primary endpoint met."
 KDMN,KD025  Idiopathic pulmonary fibrosis (IPF),Phase 2,"04/03/2018  Phase 2 data released February 12, 2018. Open label - noted data were ""positive""."
 RIGL,Fostamatinib  IgA nephropathy,Phase 2,"04/03/2018  Phase 2 data released April 3, 2018. Primary endpoint not met."
+BPTH,Prexigebersen - BP1001  Acute myeloid leukemia (AML),Phase 2,"04/03/2018  Phase 2 first patient enrolled November 2016. Interim data released April 3, 2018. Response rate 8/17 including 4 CR and 4 SD."
 AGN,Cariprazine  Bipolar I Depression,Phase 3,"04/03/2018  Phase 3 data released April 3, 2018. Primary endpoint met."
 GWPH,GWP42006 (CBDV)  Epilepsy,Phase 2,"04/03/2018  Phase 2 data released February 21, 2018 - primary endpoint not met."
-BPTH,Prexigebersen - BP1001  Acute myeloid leukemia (AML),Phase 2,"04/03/2018  Phase 2 first patient enrolled November 2016. Interim data released April 3, 2018. Response rate 8/17 including 4 CR and 4 SD."
 BMY,Opdivo - 4 week applications,Approved,"04/04/2018  Approval announced March 6, 2018."
 ANTH,Sollpura - RESULT  Exocrine pancreatic insufficiency,Phase 3,"04/04/2018  Phase 3 data released March 12, 2018 did not meet primary endpoint."
 CNAT,Emricasan  Liver fibrosis post-orthotopic liver transplant due to Hepatitis C virus infection (HCV-POLT),Phase 2b,"04/04/2018  Phase 2b data released April 4, 2018. Primary endpoint not met."
@@ -1077,7 +1078,7 @@ SPPI,Poziotinib  Non-small cell lung cancer (NSCLC) with exon 20 insertion mutat
 SELB,SEL-212  Tophaceous gout,Phase 3,"04/10/2018  Phase 2 updated data released April 10, 2018. Noted 25% gout flares. Five-monthly dose data due 3Q 2018."
 PFE,INLYTA (axitinib)  Recurrent renal cell carcinoma (RCC),Phase 3,04/10/2018  Phase 3 trial discontinued due to futility.
 RETA,Bardoxolone methyl - CARDINAL  Chronic Kidney Disease Caused by Alport Syndrome,Phase 2/3,"04/11/2018  Additional Phase 2 data due released April 11, 2018 - increase in kidney function maintained through Week 36."
-CBAY,Seladelpar  Primary biliary cholangitis (PBC),Phase 3,"04/11/2018  Phase 2 positive interim data from second trial data released July 17, 2017. Further data released April 11, 2018. Phase 3 trial to be initiated 2H 2018."
+CBAY,Seladelpar  Primary biliary cholangitis (PBC),Phase 2,"04/11/2018  Phase 2 positive interim data from second trial data released July 17, 2017. Further data released April 11, 2018. Phase 3 trial to be initiated 2H 2018."
 BLCM,BPX-501  Adjunct T-cell therapy administered after allogeneic HSCT - (hematopoietic stem cell transplantation) - cancer,Phase 1/2,"04/11/2018  Clinical hold announced January 30, 2018. Announced April 11, 2018 that hold has been lifted."
 IMDZ,CMB305 Soft tissue sarcomas,Phase 3,"04/12/2018  Phase 2 data released March 12, 2018, Median overall survival 23.7 months."
 NLNK,Indoximod in combination with KEYTRUDA or Opdivo - Indigo301  Melanoma - cancer,Phase 3,"04/15/2018  Phase randomization portion will not be initiated - noted April 15, 2018."
@@ -1145,13 +1146,13 @@ JNJ,Atabecestat  Alzheimer’s disease,Phase 2,"05/18/2018  Announced May 18, 20
 AGRX,Twirla  Contraceptive patch,CRL,"05/18/2018  CRL issued 2013. Further CRL issued December 22, 2017. Noted May 18, 2018 that FDA will require further trials for resubmission to take place."
 AZN,Lokelma (ZS-9)  Hyperkalaemia,Approved,"05/18/2018  Approval announced May 18, 2018."
 SESN,Vicinium  Non-muscle invasive bladder cancer (NMIBC),Phase 3,"05/21/2018  Phase 3 preliminary data released May 21, 2018. Noted 42% CR. 12-month data due mid-2019."
-URGN,MitoGel - UGN-101  Urothelial Carcinoma,Phase 3,"05/21/2018  Interim analysis presented May 21, 2018. 59% CR rate"
 RHHBY,Hemlibra  Hemophilia,Approved,"05/21/2018  New Phase 3 HAVEN 3 data presented at WFH May 21, 2018. 96% reduction in bleeds."
 NBRV,Lefamulin - LEAP 2  Moderate to severe Community Acquired Bacterial Pneumonia (CABP),Phase 3,05/21/2018  Primary endpoint met with NDA fling due 4Q 2018
 DOVA,Avatrombopag  Thrombocytopenia in chronic liver disease (CLD) patients,Approved,"05/21/2018  Approval announced May 21, 2018."
 AMGN,Prolia (denosumab) Glucocorticoid-induced osteoporosis (GIOP),Approved,"05/21/2018  Approval announced May 21, 2018."
 FBIO,IV Tramadol  Post-operative Pain,Phase 3,"05/21/2018  Phase 3 data released May 21, 2018 - primary endpoint met. Data to be presented at later conference. Further Phase 3 trial to be initiated 3Q 2018."
 ATXI,IV Tramadol  Post-operative Pain,Phase 3,"05/21/2018  Phase 3 data released May 21, 2018 - primary endpoint met. Data to be presented at later conference. Further Phase 3 trial to be initiated 3Q 2018."
+URGN,MitoGel - UGN-101  Urothelial Carcinoma,Phase 3,"05/21/2018  Interim analysis presented May 21, 2018. 59% CR rate"
 ONCE,SPK-9001  Hemophilia B,Phase 1/2,"05/22/2018  Phase 1/2 updated data released May 22, 2018 - 98% decrease in bleeding rate."
 INSY,Buprenorphine  Moderate to severe postoperative pain after bunionectomy,CRL,"05/22/2018  PDUFA date July 28, 2018. Advisory Committee Meeting May 22, 2018 voted against approval."
 BMRN,Valoctocogene roxaparvovec (BMN 270)  Hemophilia A,Phase 2,"05/22/2018  Phase 1/2 update May 22, 2018 noted 97% decrease in bleeding rate."
@@ -1179,8 +1180,8 @@ SCPH,Furoscix  Heart failure,CRL,"05/31/2018  PDUFA June 23, 2018. Noted May 31,
 MEIP,Pracinostat in combination with Vidaza  High-risk Myelodysplastic Syndrome (MDS),Phase 2,"05/31/2018  Phase 2 commencement of dosing announced June 14, 2017 - analysis from first stage released May 31, 2018 - trial to expand enrollment."
 KTOV,KIT-302  Osteoarthritis and Hypertension,Approved,"05/31/2018  Approval announced May 31, 2018."
 SLS,NeuVax in combination with Herceptin  Breast cancer - 1+/2+,Phase 2b,"06/01/2018  Noted June 1, 2018 that trial to be discontinued with trial meeting clinical objectives."
+MTEM,MT-3724 (targeting CD20)  Relapsed/refractory diffuse large B-cell lymphoma (DLBCL),Phase 1b,06/01/2018  Phase 2 trial to be initiated 2H 2018. Phase 1 data presented at ASCO June 2018. ORR 30%.
 AMGN,KYPROLIS (ARROW)  Multiple Myeloma,Approved,"06/01/2018  Phase 3 trial data presented at ASCO June 1, 2018. 3.6 month improvement in PFS."
-MTEM,MT-3724 and chemotherapy  Relapsed/refractory diffuse large B-cell lymphoma (DLBCL),Phase 1b,06/01/2018  Phase 2 trial to be initiated 2H 2018. Phase 1 data presented at ASCO June 2018. ORR 30%.
 BLUE,bb2121  Relapsed/refractory multiple myeloma,Phase 1,"06/01/2018  Further data due at ASCO June 1, 2018 noted PFS of 11.8 months."
 CELG,bb2121  Relapsed/refractory multiple myeloma,Phase 1,"06/01/2018  Further data due at ASCO June 1, 2018 noted PFS of 11.8 months."
 AGIO,AG-881  Glioma,Phase 1,"06/01/2018  Phase 1 data presented at ASCO June 1, 2018. 1 minor response + 1 partial response out of 93 patients."
@@ -1220,9 +1221,9 @@ AGEN,AGEN1884 (anti-CTLA-4)  Solid cancers,Phase 1,06/04/2018  Phase 1 presentat
 INFI,IPI-549 + Nivolumab  Solid tumors,Phase 1,06/04/2018  Data presented at ASCO June 2018. PR 7%.
 TSRO,Niraparib and Keytruda (TOPACIO)  Triple-negative Breast Cancer or Ovarian Cancer,Phase 1/2,06/04/2018  Phase 1/2 trial ongoing. Data at ASCO 2018 noted ORR 25%.
 PTLA,Cerdulatinib (PRT2070)  Refractory non-Hodgkin lymphoma and chronic lymphocytic leukemia - cancer,Phase 2,06/04/2018  Phase 2 interim data at ASCO June 2018. ORR 47%.
-ZIOP,Ad-RTS-hIL-12 + veledimex  Glioblastoma Multiforme (GBM),Phase 1,06/04/2018  Phase 1 presentation at ASCO June 2018. OS 12.7mths.
 MEIP,ME-401  Relapsed/refractory Follicular Lymphoma/Chronic Lymphocytic Leukemia (CLL),Phase 1b,06/04/2018  Phase 1b data presented at ASCO June 2018. ORR 90%.
 MEIP,ME-344  HER2-negative Breast Cancer,Phase 1,06/04/2018  Phase 1 data presented at ASCO June 2018. Noted primary endpoint P=0.06.
+ZIOP,Ad-RTS-hIL-12 + veledimex  Glioblastoma Multiforme (GBM),Phase 1,06/04/2018  Phase 1 presentation at ASCO June 2018. OS 12.7mths.
 BMY,CM-227 – Opdivo + Yervoy  First-line Non-small cell lung cancer (NSCLC),PDUFA,"06/04/2018  Phase 3 interim data released February 5, 2018 - co-primary endpoint of PFS met. Data presented at ASCO 2018 - HR 0.74."
 TSRO,Niraparib - (QUADRA trial) Cancer - ovarian,Phase 2,06/04/2018  Additional data at ASCO 2018 ORR 29%.
 IDRA,Tilsotolimod + ipilimumab - ILLUMINATE 204  Cancer - melanoma,Phase 2,06/04/2018  Phase 2 data at ASCO 2018. 38% ORR.
@@ -1346,9 +1347,9 @@ BIIB,BAN2401 (Aβ mAb)  Alzheimer’s disease,Phase 2,"07/25/2018  Phase 2 mixed
 CRMD,Neutrolin - LOCK-IT 100  Hemodialysis patients with central venous catheters,Phase 3,"07/25/2018  Phase 3 interim analysis July 25, 2018 by DSMB recommended trial to be stopped early as sufficient efficacy has been demonstrated."
 TORC,RTB101 and Everolimus  Respiratory Tract Infections,Phase 2b,"07/25/2018  Phase 2b data released July 25, 2018. Once daily treatment met primary endpoint. Low dose, twice daily and combo failed."
 GSK,Mepolizumab  Chronic obstructive pulmonary disease (COPD) with an eosinophilic phenotype,CRL,"07/25/2018  Advisory Committee July 25, 2018 voted 3-16 against recommending approval. PDUFA date September 7, 2018."
-ATNX,KX-01 (KX2-391) Ointment  Actinic keratosis,Phase 3,"07/26/2018  Phase 3 data released July 26, 2018. Primary endpoint met."
 ARRY,Selumetinib - ASTRA  Thyroid cancer,Phase 3,"07/26/2018  Phase 3 trial did not meet primary endpoint - noted July 26, 2018."
 AZN,Selumetinib - ASTRA  Thyroid cancer,Phase 3,"07/26/2018  Phase 3 trial did not meet primary endpoint - noted July 26, 2018."
+ATNX,KX-01 (KX2-391) Ointment  Actinic keratosis,Phase 3,"07/26/2018  Phase 3 data released July 26, 2018. Primary endpoint met."
 INSY,Buprenorphine  Moderate to severe postoperative pain after bunionectomy,CRL,"07/27/2018  CRL issued July 27, 2018."
 TNXP,TNX-102 SL (Tonmya)  Post-traumatic stress disorder (PTSD),Phase 3,"07/27/2018  Phase 3 trial halted due to insufficient efficacy - July 27, 2018."
 DRRX,RBP-7000  Schizophrenia,Approved,"07/27/2018  FDA Approval announced July 27, 2018."
@@ -1425,7 +1426,7 @@ ZEAL,Dasiglucagon  Severe hypoglycemia in diabetes,Phase 3,"09/18/2018  Phase 3 
 VKTX,VK2809  Hypercholesterolemia and Non-Alcoholic Fatty Liver Disease,Phase 2,"09/18/2018  Phase 2 data released September 18, 2018 met primary and secondary endpoints."
 GALT,GR-MD-02 and pembrolizumab (KEYTRUDA)  Melanoma,Phase 1b,"09/20/2018  Phase 1b data released September 20, 2019. ORR 50%."
 GTXI,Enobosarm Postmenopausal women with stress urinary incontinence (SUI),Phase 2,"09/21/2018  Phase 2 data released September 21, 2018 did not meet primary endpoint."
-NITE,NSR-RPGR  X-linked Retinitis Pigmentosa,Phase 2/3,"09/22/2018  Phase 1/2 preliminary data released September 22, 2018."
+NITE,NSR-RPGR  X-linked Retinitis Pigmentosa,Phase 1/2,"09/22/2018  Phase 1/2 preliminary data released September 22, 2018."
 ALXN,Eculizumab  Relapsing Neuromyelitis Optica Spectrum Disorder (NMOSD),Phase 3,"09/24/2018  Phase 3 primary endpoint met - September 24, 2018."
 ARNA,Olorinab (APD371)  Pain associated with Crohn's disease,Phase 2,"09/24/2018  Phase 2 data released September 24, 2018."
 SNDX,"Entinostat plus Keytruda - ENCORE 601  Recurrent non-small cell lung cancer (NSCLC), colorectal cancer",Phase 1/2,"09/24/2018  Phase 2 updated data to be presented September 24, 2018 did not meet prespecified ORR endpoint."
@@ -1439,10 +1440,10 @@ CKPT,CK-101  Non-small cell lung cancer (NSCLC) and other solid tumors,Phase 1/2
 LOXO,"LOXO-292  RET-fusion non-small cell lung cancer (NSCLC), medullary thyroid cancer (MTC) and other tumors",Phase 1,"09/25/2018  Phase 1 updated data released September 25, 2018. 68% ORR."
 RARX,RA101495 SC  Atypical hemolytic uremic syndrome (aHUS),Phase 1b,"09/26/2018  Phase 1b PK data released September 26, 2018."
 ALDX,ADX-102  Dry eye syndrome,Phase 2b,"09/26/2018  Phase 2b data released September 26, 2018."
+ZEAL,Dasiglucagon  Severe hypoglycemia in diabetes - children,Phase 3,"09/27/2018  Phase 3 trial initiation announced September 27, 2018."
 GERN,Imetelstat - IMbarkStudy  Myelofibrosis,Phase 2,"09/27/2018  Janssen noted September 27, 2018 not to continue collaboration."
 JNJ,Imetelstat - IMbarkStudy  Myelofibrosis,Phase 2,"09/27/2018  Janssen noted September 27, 2018 not to continue collaboration."
 ADMP,Symjepi - low dose  Anaphylaxis,Approved,"09/27/2018  FDA Approval announced September 27, 2018."
-ZEAL,Dasiglucagon  Severe hypoglycemia in diabetes - children,Phase 3,"09/27/2018  Phase 3 trial initiation announced September 27, 2018."
 ALNY,Givosiran  Acute hepatic porphyrias,Phase 3,"09/27/2018  Phase 3 positive interim analysis reported September 27, 2018."
 NVO,Somapacitan (NN8640) - REAL 3  Adult Growth Hormone Deficiency (AGHD),Phase 3,09/28/2018  Phase 2 AGHD data noted height velocity did not differ significantly compared to Norditropin.
 LLY,"Galcanezumab - EVOLVE-1, EVOLVE-2 and REGAIN  Migraine prevention",Approved,"09/28/2018  FDA approval announced September 27, 2018."
@@ -1452,9 +1453,9 @@ INSM,ARIKAYCE  Nontuberculous mycobacterial (NTM) lung disease,Approved,"09/28/2
 PFE,Dacomitinib  Non-small cell lung cancer (NSCLC),Approved,"09/28/2018  FDA Approval announced September 27, 2018."
 BIIB,Raxatrigine - BIIB074 (Nav1.7 inhibitor)  Painful Lumbosacral Radiculopathy (PLSR),Phase 2,09/30/2018  Phase 2 data released September 2018 - primary endpoint not met.
 OMER,OMS721  IgA nephropathy,Phase 3,"10/01/2018  Phase 2 data released October 1, 2018 showed only marginal improvement compared with placebo."
+AVRO,AVR-RD-01  Fabry disease,Phase 1/2,"10/01/2018  Phase 2 interim update October 1, 2018."
 ATRS,XYOSTED (testosterone enanthate)  Testosterone deficiency,Approved,"10/01/2018  FDA Approval announced October 1, 2018."
 AMGN,KYPROLIS (ARROW)  Multiple Myeloma,Approved,"10/01/2018  FDA approval announced October 1, 2018."
-AVRO,AVR-RD-01  Fabry disease,Phase 1/2,"10/01/2018  Phase 2 interim update October 1, 2018."
 RNN,RX-3117 in combination with Abraxane  First-line pancreatic cancer,Phase 2a,"10/02/2018  Phase 2 preliminary data noted out of 14 patients; 1CR 3PRs, 8 SD. Full data due 2019."
 PRTK,Sarecycline  Severe acne vulgaris,Approved,"10/02/2018  FDA Approval announced October 2, 2018."
 AGN,Sarecycline  Severe acne vulgaris,Approved,"10/02/2018  FDA Approval announced October 2, 2018."
@@ -1578,20 +1579,3 @@ INFI,IPI-549 + Nivolumab  Solid tumors,Phase 1,11/10/2018  Further data due at S
 AMRN,Vascepa REDUCE-IT outcomes trial  High Triglycerides With Mixed Dyslipidemia,Phase 3,"11/10/2018  Data presented at AHA November 10, 2018 noted 26% decrease in risk of death/heart attack."
 NVS,Entresto - PIONEER  Heart failure,Phase 3,11/11/2018  Phase 3 data noted 46% reduction in serious clinical outcomes endpoint.
 CRVS,CPI-444  Solid tumors - cancer,Phase 1b,11/11/2018  Phase 1b data at SITC November 2018 noted 1/33 PRs on monotherapy and 1/35 on combo.
-MESO,MPC-150-IM  End-Stage Heart Failure with LVADs,Phase 2b,"11/11/2018  Phase 2b trial did not meet primary endpoint - November 11, 2018."
-OPHT,Zimura  Wet age-related macular degeneration (Wet-AMD),Phase 2a,"11/12/2018  Phase 2a top-line data released November 12, 2018 noted that treatment was generally well tolerated."
-CNCE,CTP-543  Alopecia areata,Phase 2a,"11/12/2018  Phase 2 top-line data released November 12, 2018 - primary endpoint met."
-VKTX,VK2809  Hypercholesterolemia and Non-Alcoholic Fatty Liver Disease,Phase 2,"11/13/2018  Data presented at AASLD November 12, 2018 noted 67% of patients saw >50% liver fat content."
-ZYME,"ZW25  HER2-expressing Cancers - ovarian, breast, gastric",Phase 1,"11/14/2018  Phase 1 updated data presented November 14, 2018.41% PR rate."
-NOVN,SB206  Molluscum contagiosum skin infection,Phase 2,11/14/2018  Phase 2 preliminary data showed statistical significance. Phase 3 planned 1H 2019.
-MNK,MNK-812  Pain,PDUFA,"11/14/2018  Advisory Committee Meeting November 14, 2018 voted 10-7 recommending approval. PDUFA date November 16, 2018"
-APVO,Otlertuzumab  Relapsed or refractory peripheral T-cell lymphoma,Phase 2,"11/14/2018  Development terminated - noted November 14, 2018."
-QURE,AMT-061  Hemophilia B,Phase 2b,"11/15/2018  Phase 2b top-line positive data released November 15, 2018 with 31% FIX level."
-BPMC,Avapritnib BLU-285 - NAVIGATOR  PDGFRα driven Gastrointestinal stromal tumors (GIST),Phase 1,"11/15/2018  Phase 1 updated data due released November 15, 2018. 84% ORR in PDGFRα D842V GIST; 20% ORR 4th line GIST."
-NVS,Promacta (eltrombopag)  Severe aplastic anemia (SAA),Approved,"11/16/2018  sNDA approval announced November 16, 2018."
-ZIOP,Ad-RTS-hIL-12 + veledimex  Glioblastoma Multiforme (GBM),Phase 1,"11/16/2018  Phase 1 updated data presented November 16, 2018. Overall survival 17.8 months."
-SGEN,ADCETRIS in combination with chemotherapy - ECHELON-2  Frontline CD30-positive mature T-cell lymphomas - cancer,Approved,"11/16/2018  FDA Approval announced November 16, 2018."
-BGNE,Pamiparib (BGB-290)  Glioblastoma (GBM),Phase 1/2,"11/16/2018  Phase 1/2 data presented at SNO November 16, 2018 noted 2/15 partial responses."
-AZN,Durvalumab +/- tremelimumab (MYSTIC)  Lung cancer,Phase 3,"11/16/2018  Overall survival data also did not meet primary endpoint - November 16, 2018."
-ARQL,ARQ 751  Solid tumors,Phase 1,"11/16/2018  Phase 1 data released November 16, 2018. 9% partial response rate."
-AQST,AQST-119  Erectile dysfunction,CRL,"11/16/2018  CRL issued November 16, 2018."

@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<title>Simple tables</title>
-  <h1>Test table</h1>
   {% for table in tables %}
     {{ table|safe }}
   {% endfor %}
