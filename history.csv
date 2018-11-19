@@ -655,9 +655,9 @@ AZN,Tagrisso - FLAURA  First-line lung cancer,Approved,"09/09/2017  Late breaker
 AZN,Durvalumab (PACIFIC)  Lung cancer,Approved,"09/09/2017  Late breaker at ESMO September 9, 2017 showed PFS 16.8 months v 5.6 months for placebo."
 AZN,Tagrisso - FLAURA  First-line lung cancer,PDUFA priority review,"09/09/2017  Late breaker at ESMO September 9, 2017 showed PFS 18.9 months compared with 10.2 SOC."
 EXEL,Cabozantinib - CABOSUN  First-Line RCC - cancer,Approved,09/09/2017  Late breaker at ESMO September 2017 showed PFS 8.6 months versus 5.3 months for sunitinib. HR 0.48
+BPMC,BLU-554  Advanced hepatocellular carcinoma (HCC),Phase 1,"09/10/2017  Updated Phase 1 presented at ESMO September 10, 2017. 16% ORR in patients with FGFR4-driven HCC. 49% had tumor reduction."
 PFE,PF-05280014  Herceptin biosimilar,Phase 3,09/10/2017  Phase 3 data presented at ESMO - risk ratio of 0.940.
 BMY,CM-238 – Opdivo (Adjuvant)  Melanoma,Approved,"09/10/2017  Phase 3 interim data released June 6, 2017 - primary endpoint met. Data presented at ESMO September 10, 2017 - HR 0.65 compared to Yervoy."
-BPMC,BLU-554  Advanced hepatocellular carcinoma (HCC),Phase 1,"09/10/2017  Updated Phase 1 presented at ESMO September 10, 2017. 16% ORR in patients with FGFR4-driven HCC. 49% had tumor reduction."
 IDRA,Tilsotolimod + ipilimumab - ILLUMINATE 204  Cancer - melanoma,Phase 2,"09/10/2017  Phase 1/2 data released September 10, 2017. 6/9 disease control with one CR. Phase 3 trial to be initiated 1Q 2018."
 FPRX,FP-1039  Mesothelioma cancer,Phase 1b,09/11/2017  Data at ESMO showed ORR 48%.
 INO,INO-5150  Prostate cancer,Phase 1b,09/11/2017  Phase 1b interim data presented at ESMO 2017.
@@ -846,8 +846,8 @@ PFE,Talazoparib BRCA-mutated breast cancer,Approved,"12/08/2017  Phase 3 data pr
 BMRN,Valoctocogene roxaparvovec (BMN 270)  Hemophilia A,Phase 3,12/09/2017  Phase 1/2 updated data released at ASH 2017. Noted median annualized bleed rates dropped to zero after four weeks among six patients.
 VSTM,Duvelisib - DUO  Chronic lymphocytic leukemia (CLL)//Small Lymphocytic Lymphoma (SLL)/Follicular Lymphoma,Approved,"12/10/2017  Phase 3 data released September 6, 2017 - PFS primary endpoint met. Noted at ASH 2017 that OS secondary endpoint not met."
 KURA,Tipifarnib  Chronic myelomonocytic leukemia (CMML) - cancer,Phase 2,12/10/2017  Preliminary data at ASH 2017 - ORR 33% among 9 patients.
-BLUE,LentiGlobin - HGB-206  Sickle disease,Phase 1/2,12/10/2017  Data at ASH 2017 showed 51% and 28% anti-sickling HbAT87Q at six and nine months for two patients.
 IMDZ,G100 Follicular non-Hodgkin Lymphoma - cancer,Phase 2,12/10/2017  Phase 2 data ASH 2017 - ORR 39%.
+BLUE,LentiGlobin - HGB-206  Sickle disease,Phase 1/2,12/10/2017  Data at ASH 2017 showed 51% and 28% anti-sickling HbAT87Q at six and nine months for two patients.
 BLUE,bb2121  Relapsed/refractory multiple myeloma,Phase 1,"12/10/2017  Phase 1 data released at ASH 2017 - ORR 94%, CR 56%."
 CELG,bb2121  Relapsed/refractory multiple myeloma,Phase 1,"12/10/2017  Phase 1 data released at ASH 2017 - ORR 94%, CR 56%."
 BLUE,HGB-205  Transfusion-Dependent β-Thalassemia (TDT) and Severe Sickle Cell Disease (SCD),Phase 1/2,12/11/2017  Phase 1/2 data presented at ASH 2017 - noted 2/3 patients showed meaningful clinical improvement.
@@ -876,11 +876,11 @@ STML,SL-401  Cancer- adult relapsed or refractory acute myeloid leukemia (AML),P
 STML,SL-401  Blastic plasmacytoid dendritic cell neoplasm (BPDCN) cancer,PDUFA priority review,"12/13/2017  Phase 2 enrollment completed - noted March 23, 2017. Update on patients enrolled in Stages 1 and 2 at EHA June 23, 2017. Top-line data from Stage 3 met primary endpoint - October 31, 2017. ASH data showed 54% (7/13) CR + CRc rate + 77% ORR."
 GERN,Imetelstat - IMerge Study  Myelodysplastic syndromes,Phase 2/3,"12/13/2017  Poster at ASH for patients in Part 1 of the trial - December 11, 2017. 38% (12/32) of patients achieved ≥8-week RBC TI."
 JNJ,Imetelstat - IMerge Study  Myelodysplastic syndromes,Phase 2/3,"12/13/2017  Poster at ASH for patients in Part 1 of the trial - December 11, 2017. 38% (12/32) of patients achieved ≥8-week RBC TI."
+CLLS,UCART123  Acute myeloid leukemia (AML) and in blastic plasmacytoid dendritic cell neoplasm (BPDCN).,Phase 1,12/13/2017  ASH 2017 data showed five out seven patients treated achieved molecular remission.
 STML,SL-401  High Risk Myeloproliferative Neoplasms,Phase 2,12/13/2017  ASH 2017 data showed 65% (11/17 evaluable) of CMML and MF patients had spleen reductions >25%.
 PFE,IXIFI  Remicade (infliximab) biosimilar,Approved,"12/13/2017  Approval announced December 13, 2017."
 JNJ,DARZALEX (Daratumumab) - ALCYONE  Frontline multiple myeloma (non-transplant),Approved,12/13/2017  LBA at ASH 2017 - HR 0.50.
 ADRO,CRS-207 with pembrolizumab  Mesothelioma - cancer,Phase 2,"12/13/2017  Development to be discontinued - December 12, 2017."
-CLLS,UCART123  Acute myeloid leukemia (AML) and in blastic plasmacytoid dendritic cell neoplasm (BPDCN).,Phase 1,12/13/2017  ASH 2017 data showed five out seven patients treated achieved molecular remission.
 MRK,Keytruda  Cancer - Third-line Gastric or Gastroesophageal Junction Adenocarcinoma,Approved,"12/14/2017  Approved Sept. 22, 2017 under accelerated approval in patients undergoing third-line treatment following data from Phase 2 Keynote-59 trial. Phase 3 data released December 14, 2017 in patients undergoing second-line treatment, did not meet the primary endpoint of overall survival, nor did it show a significant improvement in PFS."
 AMPE,Ampion  Osteoarthritis of the Knee,Phase 3,12/14/2017  Third Phase 3 trial met primary endpoint.
 PFE,Xeljanz  Psoriatic arthritis,Phase 3,"12/14/2017  Approval announced December 14, 2017."
@@ -1019,8 +1019,8 @@ SNY,Praluent (alirocumab) ODYSSEY OUTCOMES  Cardiovascular events,Phase 3,"03/10
 SVRA,Aironite - INDIE  Heart failure with preserved ejection fraction (HFpEF),Phase 2,"03/11/2018  Phase 2 top line data presented March 11, 2018 failed to meet primary endpoint."
 SVRA,Aironite - INDIE  Heart failure with preserved ejection fraction (HFpEF),Phase 2,"03/12/2018  Phase 2 top line data presented March 11, 2018 failed to meet primary endpoint."
 ANTH,Sollpura - RESULT  Exocrine pancreatic insufficiency,Phase 3,"03/12/2018  Phase 3 data released March 12, 2018 did not meet primary endpoint."
-ADXS,Axalimogene filolisbac + durvalumab  Recurrent or refractory HPV-associated cervical cancer and head & neck cancer,Phase 1/2,"03/12/2018  Clinical hold announced March 12, 2018."
 IMDZ,G100 Follicular non-Hodgkin Lymphoma - cancer,Phase 2,"03/12/2018  Phase 2 data ASH 2017 - ORR 39%, increased to 54% March 12, 2018."
+ADXS,Axalimogene filolisbac + durvalumab  Recurrent or refractory HPV-associated cervical cancer and head & neck cancer,Phase 1/2,"03/12/2018  Clinical hold announced March 12, 2018."
 NBIX,Elagolix Uterine Fibroids,Phase 3,"03/13/2018  Phase 3 data released February 21, 2018 - primary endpoint met. Second Phase 3 trial also met primary endpoint - March 13, 2018."
 ABBV,Elagolix Uterine Fibroids,Phase 3,"03/13/2018  Phase 3 data released February 21, 2018 - primary endpoint met. Second Phase 3 trial also met primary endpoint - March 13, 2018."
 PLX,OPRX-106  Ulcerative Colitis,Phase 2,"03/13/2018  Phase 2 data released March 13, 2018 - key endpoints met."
@@ -1190,11 +1190,11 @@ AGIO,AG-120 Ivosidenib  R/R Acute Myeloid Leukemia (AML),Phase 1,06/02/2018  Pha
 GTHX,G1T38 plus Faslodex  ER+ breast cancer,Phase 1b,06/02/2018  Phase 1b preliminary released at ASCO 2018 - 17% PR.
 PBYI,Neratinib plus Kadcyla (T-DM1) HER2-positive metastatic breast cancer,Phase 1/2,"06/02/2018  Phase 1/2 interim data presented at ASCO June 2018. 9 PRs, 3CRs out of 20 patients."
 RHHBY,Tecentriq+cb+pac/nab-pac - IMpower131  Squamous non-small cell lung cancer (NSCLC),Phase 3,06/02/2018  https://www.roche.com/media/releases/med-cor-2018-06-02.htm
-CLDX,Varlilumab and nivolumab  Solid tumors - cancer,Phase 2,"06/02/2018  Data at ASCO 2018 noted ORR 14%, DCR 38% for ovarian, 20% for Colorectal cancer."
 NKTR,"NKTR-214 + OPDIVO (nivolumab) - PIVOT-02  Melanoma, Renal Cell Carcinoma and Non-Small Cell Lung Cancers",Phase 1/2,"06/02/2018  Phase 1/2 preliminary data at ASCO 2018. PR rates - Melanoma 50%; RCC 46%; Urothelial Carcinoma 60%. Updated data likely at SITC meeting November 7-11, 2018."
 BMY,"NKTR-214 + OPDIVO (nivolumab) - PIVOT-02  Melanoma, Renal Cell Carcinoma and Non-Small Cell Lung Cancers",Phase 1/2,"06/02/2018  Phase 1/2 preliminary data at ASCO 2018. PR rates - Melanoma 50%; RCC 46%; Urothelial Carcinoma 60%. Updated data likely at SITC meeting November 7-11, 2018."
 ADAP,NY-ESO T-cell therapy  Myxoid round cell liposarcoma (MRCLS),Phase 1/2,"06/02/2018  Phase 1/2 data released ASCO June 2018 - 3 PRs, 1 unconfirmed PR, 3 SD out of 8 patients."
 LOXO,"LOXO-292  RET-fusion non-small cell lung cancer (NSCLC), medullary thyroid cancer (MTC) and other tumors",Phase 1,"06/02/2018  Phase 1 data presented at ASCO June 2018 - 77% ORR RET Fusion Cancers, 45% ORR for Medullary Thyroid Cancer (MTC)."
+CLDX,Varlilumab and nivolumab  Solid tumors - cancer,Phase 2,"06/02/2018  Data at ASCO 2018 noted ORR 14%, DCR 38% for ovarian, 20% for Colorectal cancer."
 DCPH,DCC-2618  Gastrointestinal Stromal Tumors (GIST),Phase 1,06/02/2018  Phase 1 poster at ASCO June 2018 - ORR 9-24% in 2nd- >4th line patients.
 SGEN,Enfortumab vedotin  Urothelial cancer,Phase 1,06/03/2018  Presentation at ASCO June 2018. ORR 41%.
 IMMU,SACTUZUMAB GOVITECAN (IMMU-132) HR+/HER2- metastatic breast cancer,Phase 2,06/03/2018  Presentation at ASCO June 2018. ORR 31%.
@@ -1563,16 +1563,17 @@ MACK,MM-121 (SHERBOC)  HER2 negative metastatic breast cancer,Phase 2,"11/07/201
 FOMX,FMX103  Papulopustular rosacea,Phase 3,"11/07/2018  Phase 3 top-line data released November 7, 2018. Primary endpoints met."
 BSTC,XIAFLEX (collagenase clostridium histolyticum) - RELEASE  Edematous fibrosclerotic panniculopathy (“cellulite”),Phase 3,"11/07/2018  Phase 3 data released November 7, 2018 - primary endpoint met."
 ENDP,XIAFLEX (collagenase clostridium histolyticum) - RELEASE  Edematous fibrosclerotic panniculopathy (“cellulite”),Phase 3,"11/07/2018  Phase 3 data released November 7, 2018 - primary endpoint met."
+CDXS,CDX-6114  Phenylketonuria (PKU),Phase 1a,"11/08/2018  Phase 1 trial met endpoints - November 8, 2018."
 OMED,Anti-TIGIT (OMP-313M32)  Solid tumors,Phase 1/2,"11/09/2018  Data from Phase 1a portion due at SITC November 9, 2018. SD 39%."
 MRTX,Mocetinostat and durvalumab  Non-small cell lung cancer (NSCLC),Phase 2,11/09/2018  Phase 2 update at SITC November 2018 - 5/29 partial responses.
 LPTX,TRX518 in combination with gemcitabine chemotherapy or KEYTRUDA or Opdivo  Advanced solid tumors,Phase 1,11/09/2018  Phase 1 interim data noted 46.7% ORR.
-ADRO,ADU-S100  Solid tumors or lymphomas,Phase 1b,11/09/2018  Initial data due at SITC November 2018 noted 2/40 PRs and 11 with SD.
 TSRO,TSR-022 + TSR-042 AMBER  Solid tumors,Phase 1,"11/09/2018  Phase 1 data at SITC Novemeber 2018 - 15% ORR for high dose , 9% ORR for lower dose."
 TBPH,Revefenacin  COPD,Approved,"11/09/2018  FDA Approval announced November 9, 2018."
 MYL,Revefenacin  COPD,Approved,"11/09/2018  FDA Approval announced November 9, 2018."
 NKTR,"NKTR-214 + OPDIVO (nivolumab) - PIVOT-02  Melanoma, Renal Cell Carcinoma and Non-Small Cell Lung Cancers",Phase 1/2,11/09/2018  Phase 1/2 data at SITC November 2018 noted ORR 53%.
 BMY,"NKTR-214 + OPDIVO (nivolumab) - PIVOT-02  Melanoma, Renal Cell Carcinoma and Non-Small Cell Lung Cancers",Phase 1/2,11/09/2018  Phase 1/2 data at SITC November 2018 noted ORR 53%.
 MRK,Keytruda - KEYNOTE-224  Hepatocellular carcinoma (HCC),Approved,"11/09/2018  FDA approval announced November 9, 2018."
+ADRO,ADU-S100  Solid tumors or lymphomas,Phase 1b,11/09/2018  Initial data due at SITC November 2018 noted 2/40 PRs and 11 with SD.
 EIDX,AG10  ATTR-CM,Phase 2,"11/10/2018  Phase 2 data November 10, 2018 noted >90% stabilization of TTR at day 28."
 INFI,IPI-549 + Nivolumab  Solid tumors,Phase 1,11/10/2018  Further data due at SITC November 2018 noted 2/44 PRs.
 AMRN,Vascepa REDUCE-IT outcomes trial  High Triglycerides With Mixed Dyslipidemia,Phase 3,"11/10/2018  Data presented at AHA November 10, 2018 noted 26% decrease in risk of death/heart attack."
@@ -1582,6 +1583,7 @@ MESO,MPC-150-IM  End-Stage Heart Failure with LVADs,Phase 2b,"11/11/2018  Phase 
 OPHT,Zimura  Wet age-related macular degeneration (Wet-AMD),Phase 2a,"11/12/2018  Phase 2a top-line data released November 12, 2018 noted that treatment was generally well tolerated."
 CNCE,CTP-543  Alopecia areata,Phase 2a,"11/12/2018  Phase 2 top-line data released November 12, 2018 - primary endpoint met."
 VKTX,VK2809  Hypercholesterolemia and Non-Alcoholic Fatty Liver Disease,Phase 2,"11/13/2018  Data presented at AASLD November 12, 2018 noted 67% of patients saw >50% liver fat content."
+EYEG,Ocular Bandage Gel  Wound healing,Phase 1/2,"11/13/2018  Top-line positive data released November 13, 2018."
 ZYME,"ZW25  HER2-expressing Cancers - ovarian, breast, gastric",Phase 1,"11/14/2018  Phase 1 updated data presented November 14, 2018.41% PR rate."
 NOVN,SB206  Molluscum contagiosum skin infection,Phase 2,11/14/2018  Phase 2 preliminary data showed statistical significance. Phase 3 planned 1H 2019.
 MNK,MNK-812  Pain,PDUFA,"11/14/2018  Advisory Committee Meeting November 14, 2018 voted 10-7 recommending approval. PDUFA date November 16, 2018"
