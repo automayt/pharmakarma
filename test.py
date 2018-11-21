@@ -14,7 +14,7 @@ import time
 one_hour_ago = datetime.now() - timedelta(hours=1)
 
 if os.path.exists("history.csv"):
-    filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
+    filetime = datetime.fromtimestamp(os.path.getmtime("history.csv"))
     print(filetime)
     print(one_hour_ago)
     if filetime < one_hour_ago:

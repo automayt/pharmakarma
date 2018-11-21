@@ -32,16 +32,15 @@ def index():
     form = InfoForm()
     # If the form is valid on submission (we'll talk about validation next)
     one_hour_ago = datetime.now() - timedelta(hours=1)
-    global updateneeded
+    global PDUFAupdateneeded
     if os.path.exists("history.csv"):
-        filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
+        filetime = datetime.fromtimestamp(os.path.getmtime("history.csv"))
         if filetime < one_hour_ago:
-            updateneeded = True
+            PDUFAupdateneeded = True
         else:
-            updateneeded = False
+            PDUFAupdateneeded = False
     else:
-        histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
-        histdata[0].to_csv('history.csv',index=False)
+        PDUFAupdateneeded = True
 
 
     if form.validate_on_submit():
@@ -51,24 +50,24 @@ def index():
         form.stockpick.data = ''
 
         if os.path.exists("history.csv"):
-            filetime = datetime.fromtimestamp(os.path.getctime("history.csv"))
-            if updateneeded is True:
-                time.sleep(5)
+            filetime = datetime.fromtimestamp(os.path.getmtime("history.csv"))
+            if PDUFAupdateneeded is True:
                 histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
                 histdata[0].to_csv('history.csv',index=False)
-                updateneeded = False
+                PDUFAupdateneeded = False
         else:
             histdata = pd.read_html("https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar")
             histdata[0].to_csv('history.csv',index=False)
-            updateneeded = False
+            PDUFAupdateneeded = False
 
         df = pd.read_csv('history.csv').set_index('Ticker')
+        df.index.name=None
         df[["Date","Catalyst"]] = df.Catalyst.str.extract('(?P<Date>[0-9]{2}\/[0-9]{2}\/[0-9]{4})(?P<Catalyst>.*)', expand=True)
         data = df.loc[stockpick]
         pd.set_option('display.max_colwidth', -1)
-        return render_template('view.html',form=form, updateneeded=updateneeded, tables=[data.to_html(classes="stockframe")])
+        return render_template('view.html',form=form, PDUFAupdateneeded=PDUFAupdateneeded, tables=[data.to_html(classes="stockframe")])
     else:
-        return render_template('home.html',form=form, stockpick=stockpick)
+        return render_template('home.html',form=form, stockpick=stockpick, PDUFAupdateneeded=PDUFAupdateneeded)
 
 @app.route('/plot.png')
 def plot():
